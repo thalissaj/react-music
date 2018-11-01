@@ -44,6 +44,7 @@ class Main extends Component {
         fetch(`${BASE_URL}/tracks`, options)
           .then(res => res.json())
           .then(data => this.setState({ tracks: data }));
+
       });
   }
   render(){
